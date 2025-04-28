@@ -140,12 +140,48 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
+```
+#include <stdio.h>
 
+int main() { // Step 1: Declare variables int num1, den1, num2, den2; float frac1, frac2, min;
+
+// Step 2 & 3: Read first fraction
+
+printf("Enter numerator and denominator of first fraction: ");
+
+scanf("%d %d", &num1, &den1);
+
+// Step 4: Read second fraction
+
+printf("Enter numerator and denominator of second fraction: ");
+
+scanf("%d %d", &num2, &den2);
+
+// Step 5: Calculate decimal values of both fractions
+
+frac1 (float)numl / den1;
+
+frac2 (float)num2 / den2;
+
+// Step 6: Use ternary operator to find minimum
+
+min (fracl frac2)? frac1: frac2;
+
+// Step 7: Print the minimum value
+
+printf("Minimum value between the two fractions: %.4f\n", min);
+
+return 0;
+}
+
+
+```
 ## OUTPUT:
 
 
 
 
+![Screenshot 2025-04-28 134305](https://github.com/user-attachments/assets/552acfe2-9e54-4de9-9e5a-1c3ee9775e55)
 
 
 
@@ -171,11 +207,45 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+
+int main() { // Step 1: Declare a variable to store input int value;
+
+// Step 2: Read the input value
+
+printf("Enter a number: ");
+
+scanf("%d", &value);
+
+// Step 3: Check if the input is equal to 1
+
+if (value == 1) {
+
+// Step 4: If true
+
+printf("The input value is equal to 1.\n");
+
+} else {
+
+// Step 5: If not true
+
+printf("The input value is not equal to 1.\n");
+
+}
+
+// Step 6: End the program
+
+return 0;
+
+}
+```
 
 ## OUTPUT:
 
 
 
+![Screenshot 2025-04-28 134606](https://github.com/user-attachments/assets/b0d40100-cdeb-4f3b-8723-b51412a3e2bf)
 
 
 
@@ -207,8 +277,30 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
+```
+#include <stdio.h>
 
+int main() { // Step 2: Declare variables int m1, m2, m3; float tot, per;
+
+// Step 3: Input the marks
+
+printf("Enter marks of three subjects: \n"); scanf("%d %d %d", &m1, &m2, &m3);
+
+// Step 4: Calculate total tot m1 m2 + m3;
+
+// Step 5: Calculate percentage per tot/3;
+
+// Step 6: Display total and percentage
+
+printf("Total Marks %.2f\n", tot);
+
+printf("Percentage = %.2f%%\n", per);
+
+// Step 7-9: Determine Division
+```
 ## OUTPUT:
+
+![Screenshot 2025-04-28 134741](https://github.com/user-attachments/assets/9615048e-fbbd-4327-8f8a-693c62d8dcb6)
 
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
