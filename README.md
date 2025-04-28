@@ -10,11 +10,40 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+
+int main() { // Step 1: Declare three character variables char ch1, ch2, ch3;
+
+// Step 2: Read characters one by one
+
+printf("Enter first character: ");
+
+scanf("%c", &ch1);
+
+printf("Enter second character: ");
+
+scanf("%c", &ch2);
+
+printf("Enter third character: ");
+
+scanf("%c", &ch3);
+
+// Step 3: Print characters in reverse order
+
+printf("Characters in reverse order: %c %c %c\n", ch3, ch2, ch1);
+
+// Step 4: End the program
+
+return 0;
+
+}
+```
 
 ## OUTPUT:
 
 
-
+![WhatsApp Image 2025-04-28 at 02 27 15_63b46a17](https://github.com/user-attachments/assets/f972c5e1-6111-467f-b79a-ed456f97271f)
 
 
 
@@ -46,11 +75,42 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
+```
+#include <stdio.h>
 
+int main() { // Step 1: Declare a variable to store input
+// Step 2: Read the value of A
+
+printf("Enter a number: ");
+
+scanf("%d", &A);
+
+// Step 3: Check if A is positive
+
+if (A > 0) {
+
+// Step 4: If positive
+
+printf("%d is a positive number. \n", Α);
+
+} else {
+
+// Step 5: If not positive
+
+printf("%d is not a positive number.\n", A);
+
+}
+
+// Step 6: End the program
+
+return 0;
+
+}
+```
 # OUTPUT:
 
 
-
+![WhatsApp Image 2025-04-28 at 02 29 47_fcceb8a0](https://github.com/user-attachments/assets/5af36853-ccf9-41f2-9e92-117d74fe76ac)
 
 
 
